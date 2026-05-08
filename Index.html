@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Drexora AI Builder</title>
+
+  <!-- LINK TO CSS FILE -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Drexora AI Builder</h1>
+
+    <textarea
+      id="prompt"
+      placeholder="Describe the app you want to generate..."
+    ></textarea>
+
+    <button id="generateBtn">
+      Generate App
+    </button>
+
+    <div class="status" id="status">
+      Waiting for prompt...
+    </div>
+
+    <iframe id="preview"></iframe>
+
+  </div>
+
+  <!-- LINK TO JAVASCRIPT FILE -->
+  <script src="script.js"></script>
+
+</body>
+</html>
